@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body{
+		background-color:GREY;	
+	}	
+	h1{
+		font-size:200%;
+	}
+	input[type=text]{
+		width: 50%;
+		padding: 12px 20px;
+		margin: 8px 0px;
+		box-sizing: border-size;
+		border: 2px solid red;
+		background-color: #3CBC8D;
+	}
+	input[type=submit]{
+		background-color: #4CAF50;
+   		border: none;
+    	color: white;
+    	padding: 16px 32px;
+    	text-decoration: none;
+    	margin: 4px 2px;
+    	cursor: pointer;
+	}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Book Details</h1><br>
+<form action ="/suryapro1/SearchBook">
+	<th>ISBN: </th><br><th><input type=text name=isbn /></th><br>
+	<th>Book Name: </th><br><th><input type=text name=bookname /></th><br>
+	<th>Subject: </th><br><th><input type=text name=subject /></th><br>
+	<th>Author: </th><br><th><input type=text name=author /></th><br>
+	<th>Publisher: </th><br><th><input type=text name=publisher /></th><br>
+	<th><input type=submit value=Submit />
+</form>
+</body>
+</html>

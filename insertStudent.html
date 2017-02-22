@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body
+{
+	background-color:lightblue;
+}
+h1
+{
+	font-size:300%;
+	text-shadow:2px 4px;
+}
+input[type=text]{
+		width: 50%;
+		padding: 12px 20px;
+		margin: 8px 0px;
+		box-sizing: border-size;
+		border: 2px solid red;
+		background-color: #3CBC8D;
+	}
+	input[type=submit]{
+		background-color: #4CAF50;
+   		border: none;
+    	color: white;
+    	padding: 16px 32px;
+    	text-decoration: none;
+    	margin: 4px 2px;
+    	cursor: pointer;
+	}
+	input[type=number]{
+		width: 50%;
+		padding: 12px 20px;
+		margin: 8px 0px;
+		box-sizing: border-size;
+		border: 2px solid red;
+		background-color: #3CBC8D;
+	}
+	
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Enter student details</h1><br>
+<form action=/suryapro1/InsertStudent>
+	ID:<br><input type=text name=id required/><br>
+	Name:<br><input type=text name=name required/><br>
+	Branch:<br><input type=text name=branch required/><br>
+	Year:<br><input type=number name=year required/><br>
+	<input type=submit value=Submit />
+</form>
+</body>
+</html>
